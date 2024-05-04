@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+	<!--- Bootstrap 5 CSS link --->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--- Font Awesom CSS link --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8cef5d185e.js" crossorigin="anonymous"></script>
+ 	<!--- Live Jquery URL--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!--- Bootstrap 5 Jquery URL--->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--- Owl Carousel Js And CSS For Testimonial Slider--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <!--- style.css, where we will write our custom css--->
+    <link rel="stylesheet" href="style.css">
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+      
+            // Store hash
+            var hash = this.hash;
+      
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+         
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar_top">
+        <div class="container"> <a class="navbar-brand" href="#">Ashly<span></span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+            <ul class="navbar-nav ml-auto">
+              <li><a class="nav-link" href="#home"><span>Home</span></a></li>
+              <li><a class="nav-link" href="#about"><span>About</span></a></li>
+              <li><a class="nav-link" href="#education"><span>Education</span></a></li>
+              <li><a class="nav-link" href="#internships"><span>Internships</span></a></li>
+              <li><a class="nav-link" href="#projects"><span>Projects</span></a></li>
+              <li><a class="nav-link" href="#contact"><span>Contact Me</span></a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container-fluid main-section overflow-hidden" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="banner-left">
+                <h1>Hi There, I'm</h1>
+                <h2>Ashly Sibychen</h2>
+                <span class="head-bottom"></span>
+                <h3 class="typing">Mern Full Stack Developer </h3>
+                <p>Self-motivated and goal-oriented individual seeking a Software Engineer position in a company where I can launch my career and upgrade my skills with time to serve my duties that will discover the potential in me </p>
+                <div class="banner-btn">
+                  <button>Contact Me</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="banner-top">
+                <div class="banner-img"> <img src="90730.JPEG"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-grey" id="about">
+        <div class="container">
+          <div class="heading">
+            <h5>ABOUT</h5>
+            <h2><span class="heading-border"></span> ABOUT ME<span class="heading-border"></span></h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-5 col-md-5 col-12">
+              <div class="about-img"> <img src="90730.JPEG"> </div>
+            </div>
+            <div class="col-lg-7 col-md-7 col-12">
+              <div class="about-info">
+                <h2>About Me</h2>
+                <h3>Hello, my name is Ashly. I'm a MERN full stack developer.</h3>
+                <p>Lorem Ipssum is simplsy dummy text of the printaing and typeseting industry. Lorems Ipsum has been the indutry's stanard dummmy text ever since.</p>
+                <h2>Developer Tools</h2>
+                <div class="about-tool"> 
+                <span>VS Code</span> 
+                </div>
+                <h2>Technologies and Skills</h2>
+                <div class="about-tool"> 
+                <span>HTML</span> 
+                <span>CSS</span> 
+                <span>Bootstrap</span> 
+                <span>SQL</span> 
+                <span>jQuery</span> 
+                <span>mongoDB</span> 
+                <span>MYSQL</span> 
+                <span>Reactjs</span> 
+                <span>JavaScript</span> 
+                <span>Nodejs</span> 
+                <span>Expressjs</span> 
+                <span>c</span> 
+                <span>c++</span> 
+                <span>Verilog</span> 
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid main-section" id="education">
+        <div class="container">
+          <div class="heading">
+            <h5>EDUCATION</h5>
+            <h2><span class="heading-border"></span> EDUCATION <span class="heading-border"></span></h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="education">
+                <div class="education-hex"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="education-inner">
+                  <h3>Bachelors</h3>
+                  <p>2019-2023</p>
+                  <p>B.Tech in Electronics and communication Engineering at Rajagiri School of Engineering and Technology</p>
+                  <p>CGPA: 7.4/10</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div  class="education">
+                <div class="education-hex"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="education-inner">
+                  <h3>XII Grade</h3>
+                  <p>2019</p>
+                  <p>Central Board of Secondary Education</p>
+                  <p>Percentage: 72</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div  class="education">
+                <div class="education-hex"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="education-inner">
+                  <h3>X Grade</h3>
+                  <p>2017</p>
+                  <p>Central Board of Secondary Education</p>
+                  <p>CGPA: 10/10</p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container-fluid main-section bg-grey" id="internships">
+        <div class="container" >
+          <div class="heading">
+            <h5>INTERNSHIPS</h5>
+            <h2><span class="heading-border"></span> INTERNSHIP<span class="heading-border"></span></h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12" >
+              <div class="internship">
+                <div class=" col-12">
+                  <h5>Jan, 2024 - present</h5>
+                </div>
+                <div class=" col-12 ex-left">
+                  <h4>MERN Full stack Developing</h4>
+                  <p>Lorem Ipsusm is simpldy dummy text of the prisnting and typesitting induitry. Lorem Ipsum has been the induktry magnl alisua.</p>
+                  <span>SMEC Labs , Cochin</span> </div>
+              </div>
+            </div>
+        
+            
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid main-section" id="projects">
+        <div class="container">
+          <div class="heading">
+            <h5>PROJECTS</h5>
+            <h2><span class="heading-border"></span> MY PROJECTS<span class="heading-border"></span></h2>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-6 col-md-12 col-12">
+              <div class="projects-section">
+                <div class="row">
+                  <div class="col-md-7 col-12"> <img src="weather.png" style="height: 250px;width: 180px;"> </div>
+                  <div class="col-md-5 col-12">
+                    <div class="projects-info">
+                      <h3>Weather Check</h3>
+                      <p>Weather checking of different locations</p>
+                      <span>openweathermap</span> 
+                      <span>Reactjs</span> 
+                      <span>REST API</span> 
+                       
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+              <div class="projects-section">
+                <div class="row">
+                  <div class="col-md-7 col-12"> <img src="calc.png" style="height: 250px;width: 180px;"> </div>
+                  <div class="col-md-5 col-12">
+                    <div class="projects-info">
+                      <h3>Simple Caluclator</h3>
+                      <p>Made a simple calculator for performing the basic arithmetic operations.</p>
+                      <span>Html</span> 
+                      <span>css</span>  
+                      <span>Javascript</span> 
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12 mt-4">
+              <div class="projects-section">
+                <div class="row">
+                  <div class="col-md-7 col-12"> <img src="travelweb.png" style="height: 250px;width: 180px;"> </div>
+                  <div class="col-md-5 col-12">
+                    <div class="projects-info">
+                      <h3>Travel Website</h3>
+                      <p>Simple travel agency website(Frontend)</p>
+                      <span>Html</span> 
+                      <span>Css</span> 
+                      <span>Bootstrap</span> 
+                      <span>Javascript</span> 
+                      
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid main-section">
+        <div class="container">
+          <div class="heading">
+            <h5>CONTACT</h5>
+            <h2><span class="heading-border"></span> CONTACT ME<span class="heading-border"></span></h2>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="contact-info">
+                <div class="contact-left">
+                  <h3>Email</h3>
+                  <a href="ashlysibychen002@gmail.com">ashlysibychen002@gmail.com</a> </div>
+                <div class="contact-left">
+                  <h3>Chackanadu Puthenpura(H)</h3>
+                  <p>Laikadu, Perunna p.o<br>
+                    Changanacherry, 686102</p>
+                </div>
+                <div class="contact-left">
+                  <h3>Phone</h3>
+                  <p>+91 9947371491</p>
+                </div>
+                <ul>
+                  <li><a href="https://github.com/Ashlysiby" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="http://linkedin.com/in/ashly-sibychen-a08754281" target="_blank"><i class="fa fa-linkedin"></i></a></li>  
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-8 res-mt" id="contact">
+              <div class="contact-form">
+                <h3>Get In Touch</h3>
+                <div class="row mt-4">
+                  <div class="col-md-6 col-12 mt-4">
+                    <input type="text" course-listplaceholder="Your Name *" class="form-control">
+                  </div>
+                  <div class="col-md-6 col-12 mt-4">
+                    <input type="text" course-listplaceholder="Your Email *" class="form-control">
+                  </div>
+                  <div class="col-md-12 col-12 mt-4">
+                    <input type="text" course-listplaceholder="Your Subject *" class="form-control">
+                  </div>
+                  <div class="col-md-12 col-12 mt-4">
+                    <textarea placeholder="Your Message *" class="form-control"> </textarea>
+                  </div>
+                  <div class="col-md-12 col-12  mt-4">
+                    <button class="btn btn-danger btn-lg">Contact Me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      
+
+  </body>
+    </html>
